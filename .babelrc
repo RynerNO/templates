@@ -1,0 +1,26 @@
+{
+    "presets": [
+
+        "@babel/preset-env"
+
+    ],
+    "plugins": [
+        ["module-resolver", {
+            "root": ["./"], 
+            "alias": {
+                "@components": "./src/client/components",
+                "@pages": "./src/client/pages",
+                "@styles": "./src/client/styles",
+                "@store": "./src/client/store",
+                "@assets": "./src/client/assets",
+                "@utils": "./src/client/utils",
+                "@mixins": "./src/client/mixins"
+            }}
+        ],
+        ["@babel/plugin-transform-runtime",
+            {
+              "regenerator": true
+            }
+          ]
+    ]
+}
