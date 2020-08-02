@@ -3,7 +3,7 @@
     h1 Vue Template
     h2 Vue version: 2.x.x
     h3 Preprocessors: SASS, Pug
-    h3 Server: Webpack Dev Server
+    h3 Server: Express
 
 </template>
 
