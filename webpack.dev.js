@@ -14,12 +14,6 @@ module.exports = merge(common, {
     crossOriginLoading: "anonymous",
     path: path.resolve(__dirname, 'dist/public')
   },
-  devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
-    publicPath: "/",
-    port: 3000,
-    hot: true,
-  },
   plugins: [new Webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       cache: true,

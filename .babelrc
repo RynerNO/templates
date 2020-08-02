@@ -14,7 +14,8 @@
                 "@store": "./src/client/store",
                 "@assets": "./src/client/assets",
                 "@utils": "./src/client/utils",
-                "@mixins": "./src/client/mixins"
+                "@mixins": "./src/client/mixins",
+                "@routes": "./src/server/routes"
             }}
         ],
         ["@babel/plugin-transform-runtime",
